@@ -1,5 +1,6 @@
 import express, { json } from "express";
 import cors from "cors";
+import pool from "./config/db.js";
 
 const app = express();
 

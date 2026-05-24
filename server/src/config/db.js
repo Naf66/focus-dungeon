@@ -1,5 +1,6 @@
-const { Pool } = require("pg");
+import pkg from "pg";
 
+const { Pool } = pkg;
 const pool = new Pool({
   user: "postgres",
   password: "00200",
@@ -8,4 +9,4 @@ const pool = new Pool({
   database: "focus_dungeon",
 });
 
-module.exports = pool;
+export default pool;
