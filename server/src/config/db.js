@@ -1,6 +1,7 @@
 import pkg from "pg";
 
 const { Pool } = pkg;
+
 const pool = new Pool({
   user: "postgres",
   password: "00200",
